@@ -1,0 +1,196 @@
+body {
+  background-image:url("https://i.postimg.cc/t4cbmxkw/back-e1580462938233.jpg"); 
+}
+/*background:url(https://i.postimg.cc/prbSSpZt/STOP-button1.png) no-repeat;*/
+#button {
+z-index: 3;
+}
+
+
+
+.container {
+z-index: 1;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+max-width: 100%;
+display: grid;
+grid-template-columns: 50% 50%;
+
+
+}
+.baseimage {
+z-index:-1;
+opacity: 1;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+/*H=620px*/ /*W=895.8px*/
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.container .circle1 {
+z-index:1;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border-radius: 50%;
+width: 450px;
+height: 450px;
+background: rgba(48, 45, 44, 0.25);
+mix-blend-mode: color-burn;
+opacity: 0.8;
+box-shadow: inset 4px 7px 13px rgba(0, 0, 0, 0.25);
+}
+.container .circle2 {
+z-index:1;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+width: 425px;
+height: 425px;
+border-radius: 50%;
+background: rgba(48, 52, 53, 0.25);
+mix-blend-mode: color-burn;
+opacity: 0.8;
+box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.stop {
+position: absolute;
+
+left: 50%;
+top: 50%;
+transform: translate(-50%, -47%);
+z-index:4;
+background: center url("https://i.postimg.cc/T3GQFGnN/STOP-button3.png");
+background-size: contain;
+resize: both;
+height: 175px;    /*370px*/
+width: 175px;    /*370px*/
+opacity: 0.9;
+/* border-radius: 50%;         /* */
+
+border: 0px;
+}
+.stop:hover{
+opacity: 1;
+}
+
+.forward {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -160%);
+z-index:5;
+background: center url("https://svgshare.com/i/_iZ.svg") no-repeat;
+
+background-size: contain;
+resize: both;
+
+ height:126px;  /*126px*/
+width:276px;     /*276px*/
+opacity: 0.9;
+border: 0px;
+color: rgb(83, 17, 44, 1);
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+
+
+}
+.forward:hover {
+opacity: 1;
+}
+
+.backward {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,60%) ;
+z-index:6;
+background: center url("https://i.postimg.cc/yYJSnTbV/B-button1.png") no-repeat;
+
+background-size: contain;
+resize: both;
+ height:126px;  /*126px*/
+width:276px;     /*276px*/
+opacity: 0.9;
+border: 0px;
+color: rgb(83, 17, 44, 1);
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+text-transform:rotate(-90deg);
+text-transform: uppercase;
+
+
+}
+.backward:hover{
+opacity: 1;
+}
+
+.right {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(0%,-50%) rotate(90deg);
+z-index:6;
+background: center url("https://svgshare.com/i/_iZ.svg") no-repeat;
+
+background-size: contain;
+resize: both;
+ height:126px;  /*126px*/
+width:276px;     /*276px*/
+opacity: 0.9;
+border: 0px;
+color: rgb(83, 17, 44, 1);
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+
+}
+.right:hover{
+opacity: 1;
+}
+
+.left {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-100%,-50%) rotate(-90deg);
+z-index:6;
+background: center url("https://svgshare.com/i/_iZ.svg") no-repeat;
+
+background-size: contain;
+resize: both;
+ height:126px;  /*126px*/
+width:276px;     /*276px*/
+opacity: 0.9;
+border: 0px;
+color: rgb(83, 17, 44, 1);
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+
+}
+.left:hover{
+opacity: 1;
+}
+
+h1 {
+z-index: 10;
+font-size: 80px;
+  background: -webkit-linear-gradient(50deg, #A7104C 0%, #02657F 99.84%);
+  -webkit-text-fill-color:transparent ;
+  -webkit-background-clip:text;
+text-align: center;
+font-family: Ticking Timebomb BB;
+  margin-bottom: 35px;
+}
