@@ -5,7 +5,7 @@
   <br />  
   
   # الشرح
-HTML, CSS ,PHP بحيث تمت البرمجة بعدة لغات  
+HTML, CSS ,PHP  تمت البرمجة بعدة لغات  
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/> [HTML](https://html.spec.whatwg.org/) بحيث أن تم تصميم الواجهة بلغة  
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/> [CSS](https://www.w3.org/Style/CSS/) وأضافة الأنماط والرسوم لها من خلال  
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="30" height="30"/> [PHP](https://www.php.net/) وربط الواجهة والمخرجات بقاعدة البيانات تم من خلال  
